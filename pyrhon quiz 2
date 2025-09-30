@@ -2,7 +2,7 @@
 # VARIABLES
 
 name = "Rahssan"
-age = 22
+age = 18
 print("Name:", name)
 print("Age:", age)
 
@@ -32,7 +32,7 @@ class Greeter:
         self.name = name
 
     def greet(self):
-        return f"Hello, {self.name}! Welcome to your Python journey."
+        return f"Hello i'm, {self.name}! and this is my Python journey."
 
 # Instantiate and use the class
 my_greeter = Greeter("Rahssan")
