@@ -1,0 +1,39 @@
+
+# VARIABLES
+
+name = "Rahssan"
+age = 18
+print("Name:", name)
+print("Age:", age)
+
+# DATA TYPES
+
+my_integer = 10
+my_string = "Hello, AI!"
+my_list = [1, 2, 3]
+
+print("Type of my_integer:", type(my_integer))
+print("Type of my_string:", type(my_string))
+print("Type of my_list:", type(my_list))
+
+# FUNCTIONS
+
+def square(num):
+    return num * num
+
+result = square(5)
+print("Square of 5 is:", result)
+
+
+# CLASSES
+
+class Greeter:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        return f"Hello i'm, {self.name}! and this is my Python journey."
+
+# Instantiate and use the class
+my_greeter = Greeter("Rahssan")
+print(my_greeter.greet())
